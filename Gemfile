@@ -1,8 +1,12 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.6'
+<<<<<<< HEAD
 gem 'bcrypt',         '3.1.12' # この行を追加してください（このコメントは入れないで大丈夫です）
 gem 'bootstrap-sass', '3.3.7' # ←この行を追加（このコメントは含めないでいいです）
+=======
+gem 'bootstrap-sass', '3.4.1' # ←この行を追加（このコメントは含めないでいいです）
+>>>>>>> 7cabecb612be22df61afe8518a854237afeb29ee
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
 gem 'uglifier',     '3.2.0'
