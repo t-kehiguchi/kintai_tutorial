@@ -9,7 +9,8 @@ class SessionsController < ApplicationController
        # ユーザーログイン後にユーザー情報のページにリダイレクトする
        log_in(user)
       # log_in user
-       redirect_to user
+      # redirect_to user
+      redirect_back_or user
     else
       # エラーメッセージ用のflashを入れる
       flash.now[:danger] = 'メールアドレスとパスワードの情報が一致しませんでした。'
