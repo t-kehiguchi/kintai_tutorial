@@ -8,4 +8,5 @@ module ApplicationHelper
       page_title + " | " + base_title # 文字列を結合して返す
     end
   end
+
 end
